@@ -1,0 +1,32 @@
+.hero {
+  padding: 5rem 2rem;
+
+  background: linear-gradient(
+      100deg,
+      rgba(29, 17, 0, 0.8) 0%,
+      rgba(19, 11, 0, 0.63) 60%,
+      rgba(0, 0, 0, 0.1) 100%
+    ),
+    url("../../assets/images/garden_bg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.hero h2 {
+  font-size: var(--fs-700);
+  text-transform: uppercase;
+  line-height: 1.1;
+  margin-block: 3rem;
+}
+
+.hero .cta {
+  display: grid;
+  gap: 2rem;
+
+  font-size: var(--fs-400);
+}
+
+.hero .cta__buttons {
+  display: flex;
+  gap: 1rem;
+}

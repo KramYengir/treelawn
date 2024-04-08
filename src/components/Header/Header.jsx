@@ -6,9 +6,11 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header>
-      <nav className="container">
-        <div className="logo">TreeLawn</div>
+    <header className="container">
+      <nav>
+        <div>
+          <h1>TreeLawn</h1>
+        </div>
         <button onClick={() => setIsOpen(!isOpen)}>
           <IoIosMenu />
         </button>

@@ -1,4 +1,21 @@
 :root {
+  /** COLORS **/
+  --clr-primary: #125619;
+  --clr-light: #fcfcfc;
+  --clr-dark: #5b3700;
+  --clr-accent: #a4a4a4;
+
+  /** FONT SIZES **/
+  --fs-900: clamp(5rem, 10vw + 1rem, 9.375rem);
+  --fs-800: 3.5rem;
+  --fs-750: 2rem;
+  --fs-700: 1.6rem;
+  --fs-600: 1.25rem;
+  --fs-500: 1rem;
+  --fs-400: 0.9275rem;
+  --fs-300: 0.8rem;
+  --fs-200: 0.875rem;
+
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -9,12 +26,59 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-body {
+/** TABLETS **/
+@media (min-width: 40rem) {
+  :root {
+    --fs-800: 5rem;
+    --fs-750: 2.8rem;
+    --fs-700: 2.5rem;
+    --fs-600: 1.5rem;
+    --fs-500: 1.25rem;
+    --fs-400: 1rem;
+    --fs-300: 0.9275rem;
+  }
+}
+
+/** MOBILES **/
+@media (max-width: 40rem) {
+  :root {
+    --fs-900: clamp(5rem, 10vw + 1rem, 9.375rem);
+    --fs-800: 6.25rem;
+    --fs-750: 3.8rem;
+    --fs-700: 3.5rem;
+    --fs-600: 2rem;
+    --fs-500: 1.75rem;
+    --fs-400: 1.125rem;
+    --fs-300: 1rem;
+    --fs-200: 0.875rem;
+  }
+}
+
+*,
+*::before,
+*::after {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
+  padding: 0;
+  box-sizing: border-box;
+
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 100vw;
   min-height: 100vh;
+
+  background: var(--clr-light);
+}
+
+.container {
+  max-width: 1200px;
+  margin-inline: auto;
 }
 
 @media (prefers-color-scheme: light) {

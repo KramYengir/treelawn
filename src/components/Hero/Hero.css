@@ -1,14 +1,14 @@
 .hero {
-  padding: 5rem 2rem;
+  padding: 6rem 2rem;
 
   background: linear-gradient(
       100deg,
-      rgba(29, 17, 0, 0.8) 0%,
-      rgba(19, 11, 0, 0.63) 60%,
-      rgba(0, 0, 0, 0.1) 100%
+      rgba(29, 17, 0, 0.85) 0%,
+      rgba(19, 11, 0, 0.7) 60%,
+      rgba(0, 0, 0, 0.35) 100%
     ),
     url("../../assets/images/garden_bg.jpg");
-  background-position: center;
+  background-position: auto;
   background-size: cover;
 }
 
@@ -22,8 +22,11 @@
 .hero .cta {
   display: grid;
   gap: 2rem;
+}
 
+.hero .cta p {
   font-size: var(--fs-400);
+  text-wrap: balance;
 }
 
 .hero .cta__buttons {

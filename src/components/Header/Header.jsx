@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./Header.css";
-import { IoIosMenu } from "react-icons/io";
+import { IoIosMenu, IoIosClose } from "react-icons/io";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,10 +9,12 @@ const Header = () => {
     <header className="container">
       <nav>
         <div>
-          <h1>TreeLawn</h1>
+          <h1>
+            Tree<span>Lawn</span>
+          </h1>
         </div>
         <button onClick={() => setIsOpen(!isOpen)}>
-          <IoIosMenu />
+          {isOpen ? <IoIosClose /> : <IoIosMenu />}
         </button>
         {isOpen && (
           <ul>

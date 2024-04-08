@@ -1,9 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 :root {
   /** COLORS **/
-  --clr-primary: #125619;
+  /* --clr-primary: #125619; */
+  --clr-primary: #18a706;
   --clr-light: #fcfcfc;
   --clr-dark: #5b3700;
-  --clr-accent: #a4a4a4;
+  --clr-accent: #4bdf5f;
 
   /** FONT SIZES **/
   --fs-900: clamp(5rem, 10vw + 1rem, 9.375rem);
@@ -16,7 +19,8 @@
   --fs-300: 0.8rem;
   --fs-200: 0.875rem;
 
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Saira Semi Condensed", system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -97,22 +101,22 @@ body {
   color: var(--clr-dark);
 
   border-radius: 0.4rem;
-  /* border: 1px solid var(--clr-dark); */
+  border: 1px solid transparent;
   border: none;
   cursor: pointer;
 }
 
 .btn:hover,
 .btn:focus-visible {
-  background: var(--clr-white);
+  background: var(--clr-accent);
   color: var(--clr-dark);
-  border-color: transparent;
+  border-color: var(--clr-light);
 }
 
 .btn-primary {
   background: var(--clr-dark);
   color: var(--clr-light);
-  border: 0;
+  border: 1px solid var(--clr-light);
 }
 
 img {

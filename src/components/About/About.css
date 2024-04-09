@@ -2,9 +2,6 @@ section.about {
   display: grid;
   place-content: center;
   gap: 3rem;
-
-  padding-block: 6rem;
-
   text-align: center;
 }
 

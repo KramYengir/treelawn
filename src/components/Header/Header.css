@@ -3,9 +3,10 @@ header {
   top: 0;
   right: 0;
   left: 0;
-  /* padding: 1rem; */
+
+  padding: 1rem;
+
   background-color: rgba(27, 19, 0, 0.39);
-  /* backdrop-filter: blur(2px); */
 }
 
 header nav {

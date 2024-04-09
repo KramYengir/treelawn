@@ -87,6 +87,7 @@ body {
 
 section {
   min-height: 90vh;
+  padding: 6rem 1.5rem;
 }
 
 h2 {
@@ -98,7 +99,6 @@ h2 {
 .container {
   max-width: 1200px;
   margin-inline: auto;
-  padding: 1rem 1.5rem;
 }
 
 .btn {

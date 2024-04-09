@@ -26,16 +26,18 @@
   display: grid;
   justify-items: center;
   gap: 1.5rem;
+
+  padding-inline: 1rem;
 }
 
 .about h2 {
-  font-size: var(--fs-600);
+  font-size: var(--fs-500);
   text-transform: uppercase;
   line-height: 1.1;
   color: var(--clr-dark);
 }
 
 .about p {
-  text-wrap: balance;
+  max-width: 90%;
   color: var(--clr-dark);
 }

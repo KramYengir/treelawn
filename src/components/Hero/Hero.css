@@ -1,7 +1,6 @@
 section.hero {
   display: grid;
   place-content: center;
-  /* padding-block: 8rem 6rem; */
 
   background: linear-gradient(
       100deg,
@@ -15,9 +14,7 @@ section.hero {
 }
 
 .hero h2 {
-  font-size: var(--fs-700);
-  text-transform: uppercase;
-  line-height: 1.1;
+  font-size: var(--fs-800);
   margin-block: 3rem;
 
   & span {
@@ -31,7 +28,7 @@ section.hero {
 }
 
 .hero .cta p {
-  font-size: var(--fs-400);
+  font-size: var(--fs-600);
   text-wrap: balance;
 }
 

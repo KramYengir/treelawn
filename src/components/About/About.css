@@ -1,9 +1,9 @@
-.about {
+section.about {
   display: grid;
   place-content: center;
   gap: 3rem;
 
-  padding-block: 6rem !important;
+  padding-block: 6rem;
 
   text-align: center;
 }
@@ -31,9 +31,6 @@
 }
 
 .about h2 {
-  font-size: var(--fs-500);
-  text-transform: uppercase;
-  line-height: 1.1;
   color: var(--clr-dark);
 }
 

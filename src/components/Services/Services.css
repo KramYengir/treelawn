@@ -1,0 +1,39 @@
+section.services {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  gap: 4rem;
+
+  padding-block: 6rem;
+
+  background: linear-gradient(
+      100deg,
+      rgba(15, 70, 20, 0.85) 0%,
+      rgba(15, 70, 20, 0.85) 60%,
+      rgba(15, 70, 20, 0.85) 100%
+    ),
+    url("../../assets/images/forest.jpg");
+  background-position: center;
+  background-size: auto;
+}
+
+.service-list {
+  display: grid;
+  gap: 5rem;
+}
+
+.service-list__card {
+  display: grid;
+  justify-items: center;
+  gap: 0.8rem;
+}
+
+.service-list__card .card__icon {
+  font-size: var(--fs-750);
+}
+
+.service-list__card p {
+  max-width: 80%;
+  font-size: var(--fs-500);
+  text-wrap: balance;
+}

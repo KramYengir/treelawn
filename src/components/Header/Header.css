@@ -17,7 +17,7 @@ header nav {
 }
 
 header nav h1 {
-  font-size: var(--fs-500);
+  font-size: var(--fs-700);
 
   & span {
     color: var(--clr-primary);
@@ -26,7 +26,7 @@ header nav h1 {
 
 header nav button {
   z-index: 101;
-  font-size: var(--fs-600);
+  font-size: var(--fs-700);
   color: var(--clr-light);
 
   background: none;

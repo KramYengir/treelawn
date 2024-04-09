@@ -1,5 +1,7 @@
 section.hero {
-  padding-block: 6rem;
+  display: grid;
+  place-content: center;
+  /* padding-block: 8rem 6rem; */
 
   background: linear-gradient(
       100deg,

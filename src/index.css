@@ -85,6 +85,10 @@ body {
   height: 100%;
 }
 
+section {
+  min-height: 90vh;
+}
+
 .container {
   max-width: 1200px;
   margin-inline: auto;

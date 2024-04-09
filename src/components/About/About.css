@@ -1,0 +1,41 @@
+.about {
+  display: grid;
+  place-content: center;
+  gap: 3rem;
+
+  padding-block: 6rem !important;
+
+  text-align: center;
+}
+
+.about__images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0.75rem;
+}
+
+.about__images .img-wrapper img {
+  width: 100%;
+  aspect-ratio: 4/3;
+
+  border-radius: 10px;
+}
+
+.about .about__info {
+  display: grid;
+  justify-items: center;
+  gap: 1.5rem;
+}
+
+.about h2 {
+  font-size: var(--fs-600);
+  text-transform: uppercase;
+  line-height: 1.1;
+  color: var(--clr-dark);
+}
+
+.about p {
+  text-wrap: balance;
+  color: var(--clr-dark);
+}

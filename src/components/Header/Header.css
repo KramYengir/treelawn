@@ -21,7 +21,7 @@ header nav h1 {
   font-size: var(--fs-700);
 
   & span {
-    color: var(--clr-primary);
+    color: var(--clr-primary-accent);
   }
 }
 

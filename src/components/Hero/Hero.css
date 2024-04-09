@@ -18,7 +18,7 @@ section.hero {
   margin-block: 3rem;
 
   & span {
-    color: var(--clr-primary);
+    color: var(--clr-primary-accent);
   }
 }
 

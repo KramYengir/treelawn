@@ -43,8 +43,8 @@
   }
 }
 
-/** MOBILES **/
-@media (max-width: 40rem) {
+/** DESKTOP **/
+@media (min-width: 60rem) {
   :root {
     --fs-900: clamp(5rem, 10vw + 1rem, 9.375rem);
     --fs-800: 6.25rem;
@@ -87,6 +87,12 @@ body {
 
 section {
   min-height: 90vh;
+}
+
+h2 {
+  font-size: var(--fs-700);
+  text-transform: uppercase;
+  line-height: 1.1;
 }
 
 .container {

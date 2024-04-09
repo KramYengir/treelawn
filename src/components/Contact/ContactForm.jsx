@@ -34,13 +34,19 @@ const ContactForm = () => {
     <div>
       <form ref={form} onSubmit={sendEmail}>
         <label htmlFor="name">Full Name:</label>
-        <input id="name" type="text" name="name" required />
+        <input id="name" type="text" name="name" maxLength={30} required />
         <label htmlFor="email">Email:</label>
-        <input id="email" type="email" name="email" required />
+        <input id="email" type="email" name="email" maxLength={30} required />
         <label htmlFor="phone">Phone Number (optional):</label>
-        <input id="email" type="email" name="email" />
+        <input id="phone" type="tel" name="phone" maxLength={30} />
         <label htmlFor="message">Message:</label>
-        <textarea id="message" name="message" rows="10" required></textarea>
+        <textarea
+          id="message"
+          name="message"
+          rows="10"
+          maxLength={500}
+          required
+        ></textarea>
         <button type="submit" className="btn btn-primary">
           Send Message
         </button>

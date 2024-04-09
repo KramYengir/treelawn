@@ -2,6 +2,8 @@ section.contact {
   display: grid;
   text-align: center;
   gap: 2rem;
+
+  padding-bottom: 0;
 }
 
 .contact h2 {
@@ -16,6 +18,8 @@ section.contact {
 .contact form {
   display: flex;
   flex-direction: column;
+
+  padding-bottom: 4rem;
 }
 
 .contact form label {
@@ -43,4 +47,32 @@ section.contact {
 
 .contact form button {
   margin-top: 2rem;
+}
+
+.contact-info {
+  position: relative;
+  display: grid;
+  gap: 2.5rem;
+
+  padding-block: 6rem;
+
+  color: var(--clr-dark);
+}
+
+.contact-info__card .card-icon {
+  font-size: var(--fs-700);
+  /* color: var(--clr-primary); */
+}
+
+.contact-info::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  right: -1.5rem;
+  left: -1.5rem;
+
+  z-index: -1;
+
+  background-color: rgb(235, 235, 235);
 }

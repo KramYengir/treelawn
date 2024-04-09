@@ -1,5 +1,8 @@
 import "./Contact.css";
 import ContactForm from "./ContactForm";
+import { FaLocationDot } from "react-icons/fa6";
+import { FaPhone } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 const Contact = () => {
   return (
@@ -8,6 +11,30 @@ const Contact = () => {
         have a question? <span>get in touch!</span>
       </h2>
       <ContactForm />
+      <div className="contact-info">
+        <div className="contact-info__card">
+          <div className="card-icon">
+            <FaLocationDot />
+          </div>
+          <p>
+            Mountrath St.,
+            <br /> Kilcormac,
+            <br /> Co. Offaly
+          </p>
+        </div>
+        <div className="contact-info__card">
+          <div className="card-icon">
+            <FaPhone />
+          </div>
+          <p>123456789</p>
+        </div>
+        <div className="contact-info__card">
+          <div className="card-icon">
+            <MdEmail />
+          </div>
+          <p>treelawn@gmail.com</p>
+        </div>
+      </div>
     </section>
   );
 };

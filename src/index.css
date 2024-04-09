@@ -119,7 +119,7 @@ h2 {
 
 .btn:hover,
 .btn:focus-visible {
-  background: var(--clr-accent);
+  background: var(--clr-primary-accent);
   color: var(--clr-dark);
   border-color: var(--clr-light);
 }

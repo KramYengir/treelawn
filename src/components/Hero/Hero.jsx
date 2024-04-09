@@ -3,7 +3,9 @@ import "./Hero.css";
 const Hero = () => {
   return (
     <section className="container hero">
-      <h2>shape your land the right way</h2>
+      <h2>
+        shape your land the <span>right</span> way
+      </h2>
       <div className="cta">
         <p>
           Transforming landscapes, one tree at a time. Whether it&apos;s garden

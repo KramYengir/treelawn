@@ -3,10 +3,10 @@
 :root {
   /** COLORS **/
   /* --clr-primary: #125619; */
-  --clr-primary: #18a706;
+  --clr-primary: #125619;
   --clr-light: #fcfcfc;
   --clr-dark: #5b3700;
-  --clr-accent: #4bdf5f;
+  --clr-primary-accent: #2ac53a;
 
   /** FONT SIZES **/
   --fs-900: clamp(5rem, 10vw + 1rem, 9.375rem);
@@ -125,7 +125,7 @@ h2 {
 }
 
 .btn-primary {
-  background: var(--clr-dark);
+  background: var(--clr-primary);
   color: var(--clr-light);
   /* border: 1px solid var(--clr-light); */
 }

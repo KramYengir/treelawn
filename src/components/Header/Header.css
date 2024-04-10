@@ -41,7 +41,7 @@ header nav ul {
   inset: 0;
   z-index: 100;
 
-  padding-top: 15vh;
+  padding-top: 20vh;
 
   display: flex;
   flex-direction: column;
@@ -54,6 +54,8 @@ header nav ul {
 }
 
 header nav ul li a {
+  font-size: var(--fs-700);
   font-weight: 600;
+
   color: var(--clr-light);
 }

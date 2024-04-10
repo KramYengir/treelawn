@@ -18,6 +18,8 @@ header nav {
 }
 
 header nav h1 {
+  /* font-family: "Faustina", "Saira Semi Condensed", system-ui, Avenir, Helvetica,
+    Arial, sans-serif; */
   font-size: var(--fs-700);
 
   & span {

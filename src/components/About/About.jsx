@@ -3,11 +3,15 @@ import img1 from "../../assets/images/guy-clipping.jpg";
 import img2 from "../../assets/images/guy-in-tree.jpg";
 import img3 from "../../assets/images/guy-rope.jpeg";
 import img4 from "../../assets/images/woodcutter.jpg";
+import treelawnLogo from "../../assets/images/Treelawn_2.png";
 
 const About = () => {
   return (
     <section id="about" className="container about">
       <div className="about__images">
+        <div className="logo">
+          <img src={treelawnLogo} alt="" />
+        </div>
         <div className="img-wrapper">
           <img src={img1} alt="" />
         </div>

@@ -9,7 +9,7 @@ section.hero {
       rgba(0, 0, 0, 0.35) 100%
     ),
     url("../../assets/images/garden_bg.jpg");
-  background-position: auto;
+  background-position: center;
   background-size: cover;
 }
 

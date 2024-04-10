@@ -50,7 +50,6 @@ section.contact {
 }
 
 .contact-info {
-  position: relative;
   display: grid;
   gap: 2.5rem;
 
@@ -62,17 +61,4 @@ section.contact {
 .contact-info__card .card-icon {
   font-size: var(--fs-700);
   /* color: var(--clr-primary); */
-}
-
-.contact-info::after {
-  position: absolute;
-  content: "";
-  top: 0;
-  bottom: 0;
-  right: -1.5rem;
-  left: -1.5rem;
-
-  z-index: -1;
-
-  background-color: rgb(235, 235, 235);
 }

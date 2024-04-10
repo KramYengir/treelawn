@@ -36,3 +36,23 @@ section.hero {
   display: flex;
   gap: 1rem;
 }
+
+/** DESKTOPS **/
+
+@media (min-width: 60rem) {
+  section.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-inline: 5vw;
+  }
+
+  .hero h2,
+  .hero .cta {
+    max-width: 40%;
+  }
+
+  .hero .cta {
+  }
+}

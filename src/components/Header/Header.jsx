@@ -17,6 +17,19 @@ const Header = () => {
             Tree<span>Lawn</span>
           </h1>
         </div>
+        <ul className="desktop">
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="#contact" className="btn">
+              Get in Touch!
+            </a>
+          </li>
+        </ul>
         <button onClick={() => setIsOpen(!isOpen)} aria-expanded={isOpen}>
           {isOpen ? <IoIosClose /> : <IoIosMenu />}
         </button>

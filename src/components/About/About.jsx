@@ -6,7 +6,7 @@ import img4 from "../../assets/images/woodcutter.jpg";
 
 const About = () => {
   return (
-    <section className="container about">
+    <section id="about" className="container about">
       <div className="about__images">
         <div className="img-wrapper">
           <img src={img1} alt="" />
@@ -32,7 +32,7 @@ const About = () => {
           Amet pretium fringilla morbi tincidunt sit semper. Accumsan purus et
           turpis purus ultrices nisi maecenas. A adipiscing enim.
         </p>
-        <a href="#" className="btn btn-primary">
+        <a href="#contact" className="btn btn-primary">
           Get In Touch!
         </a>
       </div>

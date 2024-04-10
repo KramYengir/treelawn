@@ -13,8 +13,12 @@ const Hero = () => {
           the right place!
         </p>
         <div className="cta__buttons">
-          <button className="btn">Services</button>
-          <button className="btn btn-primary">Get in touch</button>
+          <a href="#services" className="btn">
+            My Services
+          </a>
+          <a href="#contact" className="btn btn-primary">
+            Get in touch!
+          </a>
         </div>
       </div>
     </section>

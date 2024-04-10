@@ -5,7 +5,7 @@ import { FaWater } from "react-icons/fa";
 
 const Services = () => {
   return (
-    <section className="container services">
+    <section id="services" className="container services">
       <h2>What I can Do for you</h2>
       <div className="service-list">
         <div className="service-list__card">

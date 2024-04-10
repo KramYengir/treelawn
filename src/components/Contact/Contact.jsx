@@ -2,11 +2,11 @@ import "./Contact.css";
 import ContactForm from "./ContactForm";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaPhone } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
+import { MdEmail, MdOutlineKeyboardDoubleArrowUp } from "react-icons/md";
 
 const Contact = () => {
   return (
-    <section className="container contact">
+    <section id="contact" className="container contact">
       <h2>
         have a question? <span>get in touch!</span>
       </h2>
@@ -34,6 +34,10 @@ const Contact = () => {
           </div>
           <p>treelawn@gmail.com</p>
         </div>
+        <a href="#">
+          <MdOutlineKeyboardDoubleArrowUp /> Back to the top{" "}
+          <MdOutlineKeyboardDoubleArrowUp />
+        </a>
       </div>
     </section>
   );

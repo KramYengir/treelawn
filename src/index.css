@@ -6,6 +6,7 @@
   --clr-primary: #125619;
   --clr-light: #fcfcfc;
   --clr-dark: #5b3700;
+  --clr-black: rgb(32, 32, 32);
   --clr-primary-accent: #2ac53a;
 
   /** FONT SIZES **/
@@ -110,6 +111,7 @@ h2 {
   padding: 0.75rem 1.2rem;
 
   color: var(--clr-dark);
+  background-color: var(--clr-light);
 
   border-radius: 0.4rem;
   border: 1px solid transparent;

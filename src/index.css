@@ -76,11 +76,11 @@ html {
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
+  /* width: 100vw;
+  height: 100vh; */
 
   color: var(--clr-light);
-  background: var(--clr-light);
+  background-color: var(--clr-light);
 }
 
 body.disable-scrolling {

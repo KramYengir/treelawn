@@ -3,6 +3,8 @@ section.about {
   place-content: center;
   gap: 3rem;
   text-align: center;
+
+  background-color: var(--clr-light);
 }
 
 .about__images {

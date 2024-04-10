@@ -36,6 +36,10 @@ header nav button {
   border: none;
 }
 
+header nav ul.desktop {
+  display: none;
+}
+
 header nav ul.mobile {
   position: fixed;
   inset: 0;

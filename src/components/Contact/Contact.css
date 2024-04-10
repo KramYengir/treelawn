@@ -55,6 +55,7 @@ section.contact {
 .contact-info {
   position: relative;
   display: grid;
+  place-content: center;
   gap: 3rem;
 
   padding-block: 6rem 7rem;

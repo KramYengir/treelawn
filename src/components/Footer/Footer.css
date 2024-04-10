@@ -6,9 +6,9 @@ footer {
   align-items: center;
   gap: 0.25rem;
 
-  padding-block: 0.5rem;
+  padding-block: 1rem;
 
-  background-color: transparent;
+  background-color: rgb(235, 235, 235);
 }
 
 footer img {

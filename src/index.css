@@ -18,7 +18,7 @@
   --fs-500: 1rem;
   --fs-400: 0.9275rem;
   --fs-300: 0.8rem;
-  --fs-200: 0.875rem;
+  --fs-200: 0.675rem;
 
   font-family: "Saira Semi Condensed", system-ui, Avenir, Helvetica, Arial,
     sans-serif;
@@ -41,6 +41,7 @@
     --fs-500: 1.25rem;
     --fs-400: 1rem;
     --fs-300: 0.9275rem;
+    --fs-200: 0.8rem;
   }
 }
 

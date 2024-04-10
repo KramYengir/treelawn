@@ -5,6 +5,10 @@ import { IoIosMenu, IoIosClose } from "react-icons/io";
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
+  isOpen
+    ? document.body.classList.add("disable-scrolling")
+    : document.body.classList.remove("disable-scrolling");
+
   return (
     <header className="container">
       <nav>
@@ -13,19 +17,25 @@ const Header = () => {
             Tree<span>Lawn</span>
           </h1>
         </div>
-        <button onClick={() => setIsOpen(!isOpen)}>
+        <button onClick={() => setIsOpen(!isOpen)} aria-expanded={isOpen}>
           {isOpen ? <IoIosClose /> : <IoIosMenu />}
         </button>
         {isOpen && (
-          <ul>
+          <ul className="mobile">
             <li>
-              <a href="#about">About</a>
+              <a href="#about" onClick={() => setIsOpen(!isOpen)}>
+                About
+              </a>
             </li>
             <li>
-              <a href="#services">Services</a>
+              <a href="#services" onClick={() => setIsOpen(!isOpen)}>
+                Services
+              </a>
             </li>
             <li>
-              <a href="#contact">Get in Touch!</a>
+              <a href="#contact" onClick={() => setIsOpen(!isOpen)}>
+                Get in Touch!
+              </a>
             </li>
           </ul>
         )}

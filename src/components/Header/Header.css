@@ -48,7 +48,7 @@ header nav ul {
 
   text-transform: uppercase;
 
-  background-color: var(--clr-dark);
+  background-color: var(--clr-primary);
 }
 
 header nav ul li a {

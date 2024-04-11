@@ -1,7 +1,7 @@
 import "./Services.css";
 import { TbTrees } from "react-icons/tb";
 import { MdElectricBolt } from "react-icons/md";
-import { FaWater } from "react-icons/fa";
+import { BsWater } from "react-icons/bs";
 
 const Services = () => {
   return (
@@ -29,7 +29,9 @@ const Services = () => {
           </p>
         </div>
         <div className="service-list__card">
-          <FaWater />
+          <div className="card__icon">
+            <BsWater />
+          </div>
           <p>
             I specialize in tree care services for riverways. From pruning for
             waterway navigation to erosion control along riverbanks.

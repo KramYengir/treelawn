@@ -35,3 +35,27 @@ section.services {
   font-size: var(--fs-500);
   text-wrap: balance;
 }
+
+/** DESKTOPS **/
+@media (min-width: 1011px) {
+  section.services {
+    align-items: center;
+    gap: 1rem;
+  }
+  .service-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .service-list__card {
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.8rem;
+
+    min-height: 250px;
+  }
+}

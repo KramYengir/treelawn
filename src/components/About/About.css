@@ -1,5 +1,8 @@
 section.about {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(90vw, 450px), 1fr));
+
+  justify-items: center;
   place-content: center;
   gap: 3rem;
   text-align: center;
@@ -13,6 +16,12 @@ section.about {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 0.75rem;
+
+  aspect-ratio: 4/3;
+
+  margin-inline: auto;
+
+  max-width: min(95vw, 80%);
 }
 .about__images .logo {
   position: absolute;
@@ -36,17 +45,40 @@ section.about {
 .about .about__info {
   display: grid;
   justify-items: center;
+  align-items: center;
   gap: 1.5rem;
+
+  max-width: min(95vw, 80%);
 
   padding-inline: 1rem;
 }
 
 .about h2 {
-  max-width: 75%;
+  text-wrap: balance;
   color: var(--clr-dark);
 }
 
 .about p {
   max-width: 90%;
   color: var(--clr-dark);
+}
+
+/** DESKTOPS **/
+
+@media (min-width: 1011px) {
+  section.about {
+    align-items: center;
+    gap: 1rem;
+  }
+
+  /* .about__images {
+    max-width: 70%;
+  } */
+
+  .about .about__info {
+    justify-items: start;
+    /* align-content: center; */
+    text-align: left;
+    /* max-width: 75%; */
+  }
 }

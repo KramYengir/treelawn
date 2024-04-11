@@ -1,4 +1,5 @@
 section.contact {
+  position: relative;
   display: grid;
   text-align: center;
   gap: 2rem;
@@ -53,7 +54,6 @@ section.contact {
 }
 
 .contact-info {
-  position: relative;
   display: grid;
   place-content: center;
   gap: 3rem;
@@ -83,4 +83,55 @@ section.contact {
   font-size: var(--fs-300);
 
   color: var(--clr-primary);
+}
+
+/** DESKTOPS **/
+
+@media (min-width: 1011px) {
+  .contact-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 4rem;
+  }
+
+  .contact-wrapper .contact-info {
+    order: -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding-block: initial;
+
+    background-color: transparent;
+  }
+
+  .contact-wrapper form {
+    justify-content: center;
+    min-width: 35%;
+  }
+
+  .contact form label {
+    margin-block: 2rem 0.5rem;
+  }
+
+  .contact-info__card {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+
+    text-align: left;
+
+    min-height: 150px;
+
+    padding: 2rem;
+
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px rgba(211, 211, 211, 0.616);
+  }
+
+  .contact-info a {
+    right: 1rem;
+
+    transform: translateX(0);
+  }
 }

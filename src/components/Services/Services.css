@@ -40,7 +40,7 @@ section.services {
 @media (min-width: 1011px) {
   section.services {
     align-items: center;
-    gap: 1rem;
+    gap: 6rem;
   }
   .service-list {
     display: flex;

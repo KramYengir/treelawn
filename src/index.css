@@ -91,7 +91,7 @@ body.disable-scrolling {
 }
 
 section {
-  min-height: 90vh;
+  /* min-height: 90vh; */
   padding: 6rem 1.5rem;
 }
 

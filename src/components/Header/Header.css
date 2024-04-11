@@ -79,19 +79,19 @@ header nav ul.mobile li a {
     padding-inline: 5vw;
   }
 
-  header nav ul {
+  header nav ul.desktop {
     display: flex;
     align-items: center;
     gap: 2.5rem;
 
-    & li a {
+    & li a:not(.btn) {
       text-transform: uppercase;
       font-weight: 500;
       color: var(--clr-light);
     }
 
-    & li a:hover,
-    & li a:focus-visible {
+    & li a:not(.btn):hover,
+    & li a:not(.btn):focus-visible {
       color: var(--clr-primary-accent);
     }
   }

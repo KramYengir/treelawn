@@ -27,13 +27,13 @@ const Contact = () => {
             <div className="card-icon">
               <FaPhone />
             </div>
-            <p>123456789</p>
+            <p>+35387 03643669</p>
           </div>
           <div className="contact-info__card">
             <div className="card-icon">
               <MdEmail />
             </div>
-            <p>treelawn@gmail.com</p>
+            <p>treelawn24@gmail.com</p>
           </div>
           <a href="#">
             <MdOutlineKeyboardDoubleArrowUp /> Back to the top{" "}

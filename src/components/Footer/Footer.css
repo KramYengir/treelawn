@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Oxygen:wght@300;400;");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;");
 
 footer {
   display: flex;
@@ -6,9 +6,9 @@ footer {
   align-items: center;
   gap: 0.25rem;
 
-  padding-block: 0.5rem;
+  padding-block: 0.75rem;
 
-  /* background-color: rgb(235, 235, 235); */
+  border-top: 1px solid rgba(211, 211, 211, 0.516);
 }
 
 footer img {
@@ -17,7 +17,19 @@ footer img {
 }
 
 footer a {
+  display: flex;
+  align-items: center;
   font-family: "Montserrat", sans-serif;
   font-size: var(--fs-300);
   color: var(--clr-black);
+}
+
+footer a:hover,
+footer a:hover,
+footer a:focus-visible {
+  color: var(--clr-primary);
+  & img {
+    filter: invert(23%) sepia(71%) saturate(669%) hue-rotate(78deg)
+      brightness(90%) contrast(92%);
+  }
 }

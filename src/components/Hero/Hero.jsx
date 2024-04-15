@@ -8,9 +8,9 @@ const Hero = () => {
       </h2>
       <div className="cta">
         <p>
-          Transforming landscapes, one tree at a time. Whether it&apos;s garden
-          renovation, tree maintenance, or pathway clearing, you&apos;ve come to
-          the right place!
+          With over two decades of hands-on experience specializing in tree
+          work, Treelawn stands as a trusted one-man operation committed to
+          excellence in outdoor services.
         </p>
         <div className="cta__buttons">
           <a href="#services" className="btn">

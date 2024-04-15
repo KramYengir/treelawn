@@ -1,6 +1,6 @@
 import "./About.css";
 import img1 from "../../assets/images/guy-clipping.jpg";
-import img2 from "../../assets/images/guy-in-tree.jpg";
+import img2 from "../../assets/images/tree-cutting.jpg";
 import img3 from "../../assets/images/guy-rope.jpeg";
 import img4 from "../../assets/images/woodcutter.jpg";
 import treelawnLogo from "../../assets/images/Treelawn_2.png";
@@ -26,15 +26,19 @@ const About = () => {
         </div>
       </div>
       <div className="about__info">
-        <h2>How I got started in this business</h2>
+        <h2>What Treelawn represents</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur. Feugiat sed amet diam nisi id.
-          Tellus quis neque eu aliquet. Duis ut faucibus non etiam eget felis
-          vestibulum.
+          At Treelawn, we pride ourselves on over 20 years of dedicated
+          experience in the arboriculture and landscaping industry. As a solo
+          operator, I bring a personal touch to every project, ensuring
+          attention to detail and a focus on customer satisfaction.
           <br />
           <br />
-          Amet pretium fringilla morbi tincidunt sit semper. Accumsan purus et
-          turpis purus ultrices nisi maecenas. A adipiscing enim.
+          With a passion for preserving the natural beauty of outdoor spaces,
+          Treelawn combines expertise, professional-grade equipment, and
+          industry certification to deliver exceptional results. Whether
+          it&apos;s tree maintenance, garden renovation, or pathway clearing,
+          you can trust Treelawn for expert service and lasting quality.
         </p>
         <a href="#contact" className="btn btn-primary">
           Get In Touch!

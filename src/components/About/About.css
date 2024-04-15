@@ -21,7 +21,7 @@ section.about {
 
   margin-inline: auto;
 
-  max-width: min(95vw, 80%);
+  max-width: min(80vw, 450px);
 }
 .about__images .logo {
   position: absolute;

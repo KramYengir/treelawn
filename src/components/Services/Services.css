@@ -20,17 +20,17 @@ section.services {
   gap: 5rem;
 }
 
-.service-list__card {
+.service-list__item {
   display: grid;
   justify-items: center;
-  gap: 0.8rem;
+  gap: 1.5rem;
 }
 
-.service-list__card .card__icon {
+.service-list__item .service-list__icon {
   font-size: var(--fs-750);
 }
 
-.service-list__card p {
+.service-list__description {
   max-width: 80%;
   font-size: var(--fs-500);
   text-wrap: balance;
@@ -56,13 +56,13 @@ section.services {
     justify-content: space-evenly;
   }
 
-  .service-list__card {
+  .service-list__item {
     flex: 1;
     flex-direction: column;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 0.8rem;
+    gap: 2rem;
 
     min-height: 250px;
   }

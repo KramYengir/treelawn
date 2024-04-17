@@ -10,36 +10,40 @@ const Contact = () => {
       <h2>
         have a question? <span>get in touch!</span>
       </h2>
-      <div className="contact-wrapper">
-        {/* <ContactForm /> */}
-        <div className="contact-info">
-          <div className="contact-info__card">
-            <div className="card-icon">
-              <FaLocationDot />
+
+      <div className="contact-info">
+        <ul className="contact-info__list">
+          <li className="contact-info__item">
+            <div className="item-icon">
+              <FaLocationDot aria-label="Address" />
             </div>
-            <p>
-              Mountrath St.,
+            <a
+              href="https://www.google.com/maps?q=Mountrath+Street,+Kilcormac,+Co.+Offaly"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Mountrath Street,
               <br /> Kilcormac,
               <br /> Co. Offaly
-            </p>
-          </div>
-          <div className="contact-info__card">
-            <div className="card-icon">
-              <FaPhone />
+            </a>
+          </li>
+          <li className="contact-info__item">
+            <div className="item-icon">
+              <FaPhone aria-label="Phone" />
             </div>
-            <p>+35387 03643669</p>
-          </div>
-          <div className="contact-info__card">
-            <div className="card-icon">
-              <MdEmail />
+            <a href="tel:+3538703643669">+353 87 036 43669</a>
+          </li>
+          <li className="contact-info__item">
+            <div className="item-icon">
+              <MdEmail aria-label="Email" />
             </div>
-            <p>treelawn24@gmail.com</p>
-          </div>
-          <a href="#">
-            <MdOutlineKeyboardDoubleArrowUp /> Back to the top{" "}
-            <MdOutlineKeyboardDoubleArrowUp />
-          </a>
-        </div>
+            <a href="mailto:treelawn24@gmail.com">treelawn24@gmail.com</a>
+          </li>
+        </ul>
+        <a href="#" className="back-to-top">
+          <MdOutlineKeyboardDoubleArrowUp /> Back to the top{" "}
+          <MdOutlineKeyboardDoubleArrowUp />
+        </a>
       </div>
     </section>
   );

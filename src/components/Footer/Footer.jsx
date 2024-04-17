@@ -4,7 +4,11 @@ import rigneymadeLogo from "../../assets/images/rigneymade-logo.png";
 const Footer = () => {
   return (
     <footer>
-      <a href="https://rigneymade.com/" target="_blank">
+      <a
+        href="https://rigneymade.com/"
+        target="_blank"
+        aria-label="porfolio page for rigneymade"
+      >
         <img src={rigneymadeLogo} alt="logo for website creator - rigneymade" />{" "}
         RigneyMade <span>2024 ©</span>
       </a>

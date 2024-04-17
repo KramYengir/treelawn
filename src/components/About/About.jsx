@@ -10,19 +10,31 @@ const About = () => {
     <section id="about" className="container about">
       <div className="about__images">
         <div className="logo">
-          <img src={treelawnLogo} alt="" />
+          <img src={treelawnLogo} role="presentation" alt="treelawn logo" />
         </div>
         <div className="img-wrapper">
-          <img src={img1} alt="" />
+          <img
+            src={img1}
+            role="presentation"
+            alt="a man using hedge clippers"
+          />
         </div>
         <div className="img-wrapper">
-          <img src={img2} alt="" />
+          <img
+            src={img2}
+            role="presentation"
+            alt="a man cutting a tree with a chainsaw"
+          />
         </div>
         <div className="img-wrapper">
-          <img src={img3} alt="" />
+          <img
+            src={img3}
+            role="presentation"
+            alt="a man climbing a tree using rope tools"
+          />
         </div>
         <div className="img-wrapper">
-          <img src={img4} alt="" />
+          <img src={img4} role="presentation" alt="a woodchipper in use" />
         </div>
       </div>
       <div className="about__info">

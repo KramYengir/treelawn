@@ -31,6 +31,7 @@ const Header = () => {
   // Function to handle closing the menu when clicking outside
   const handleCloseMenu = () => {
     setIsOpen(false);
+    toggleBodyScrolling();
   };
 
   return (
@@ -63,13 +64,19 @@ const Header = () => {
         {isOpen && (
           <ul className="mobile" onClick={handleCloseMenu}>
             <li>
-              <a href="#about">About</a>
+              <a href="#about" onClick={toggleMenu}>
+                About
+              </a>
             </li>
             <li>
-              <a href="#services">Services</a>
+              <a href="#services" onClick={toggleMenu}>
+                Services
+              </a>
             </li>
             <li>
-              <a href="#contact">Get in Touch!</a>
+              <a href="#contact" onClick={toggleMenu}>
+                Get in Touch!
+              </a>
             </li>
           </ul>
         )}
